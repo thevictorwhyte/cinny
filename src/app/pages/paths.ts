@@ -5,19 +5,7 @@ export type LoginPathSearchParams = {
   email?: string;
   loginToken?: string;
 };
-export const LOGIN_PATH = '/login/:server?/';
-
-export type RegisterPathSearchParams = {
-  username?: string;
-  email?: string;
-  token?: string;
-};
-export const REGISTER_PATH = '/register/:server?/';
-
-export type ResetPasswordPathSearchParams = {
-  email?: string;
-};
-export const RESET_PASSWORD_PATH = '/reset-password/:server?/';
+export const LOGIN_PATH = '/login/';
 
 export const _CREATE_PATH = 'create/';
 export const _JOIN_PATH = 'join/';
