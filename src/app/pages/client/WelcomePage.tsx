@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Button, Icon, Icons, Text, config, toRem } from 'folds';
+import { Box, config } from 'folds';
 import { Page, PageHero, PageHeroSection } from '../../components/page';
 import CinnySVG from '../../../../public/res/svg/cinny.svg';
 
@@ -15,21 +15,21 @@ export function WelcomePage() {
         <PageHeroSection>
           <PageHero
             icon={<img width="70" height="70" src={CinnySVG} alt="Cinny Logo" />}
-            title="Welcome to Cinny"
+            title="Welcome to Sayance"
             subTitle={
               <span>
-                Yet another matrix client.{' '}
-                <a
+                End to end encrypted chat app by Kybershield.
+                {/* <a
                   href="https://github.com/cinnyapp/cinny/releases"
                   target="_blank"
                   rel="noreferrer noopener"
                 >
                   v4.6.0
-                </a>
+                </a> */}
               </span>
             }
           >
-            <Box justifyContent="Center">
+            {/* <Box justifyContent="Center">
               <Box grow="Yes" style={{ maxWidth: toRem(300) }} direction="Column" gap="300">
                 <Button
                   as="a"
@@ -55,7 +55,7 @@ export function WelcomePage() {
                   </Text>
                 </Button>
               </Box>
-            </Box>
+            </Box> */}
           </PageHero>
         </PageHeroSection>
       </Box>
